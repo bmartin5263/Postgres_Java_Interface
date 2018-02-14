@@ -8,10 +8,6 @@ public class PostgreSQLJDBC {
     private static final String DATABASE = "postgres";
     private static final String URL = String.format("jdbc:postgresql://localhost:5432/%s", DATABASE);
 
-    static {
-        System.out.println("Hello World!");
-    }
-
     public static void main(String args[]) {
 
         Connection c = null;
